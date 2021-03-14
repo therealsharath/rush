@@ -1,0 +1,555 @@
+,event_id,event_name
+1,8c90c1563972e44d,UFC Fight Night: Edwards vs. Muhammad
+2,6e2b1d631832921d,UFC 259: Blachowicz vs. Adesanya
+3,81b57acd6975ac06,UFC Fight Night: Rozenstruik vs. Gane
+4,bfe95ec546692b13,UFC Fight Night: Blaydes vs. Lewis
+5,3f7c14c7eca7195d,UFC 258: Usman vs. Burns
+6,a1153013cb5f628f,UFC Fight Night: Overeem vs. Volkov
+7,4304992c2acc187b,UFC 257: Poirier vs. McGregor
+8,56116537d71a578c,UFC Fight Night: Chiesa vs. Magny
+9,307064d3e0f036c2,UFC Fight Night: Holloway vs. Kattar
+10,e49c2db95e572dc8,UFC Fight Night: Thompson vs. Neal
+11,d0d43cb9b14f231c,UFC 256: Figueiredo vs. Moreno
+12,398b440e73d55b8b,UFC Fight Night: Hermansson vs. Vettori
+13,992c82450d96f726,UFC Fight Night: Smith vs. Clark
+14,bbb15f301e4a490a,UFC 255: Figueiredo vs. Perez
+15,3bc27ec15facbcf3,UFC Fight Night: Felder vs. Dos Anjos
+16,41dca66f9dadfc86,UFC Fight Night: Santos vs. Teixeira
+17,ad044be25c94dcfd,UFC Fight Night: Hall vs. Silva
+18,c3c38c86f5ab9b5c,UFC 254: Khabib vs. Gaethje
+19,d4f364dd076bb0e2,UFC Fight Night: Ortega vs. The Korean Zombie
+20,fd4578cac86d75ca,UFC Fight Night: Moraes vs. Sandhagen
+21,805ad1801eb26abb,UFC Fight Night: Holm vs. Aldana
+22,e69c5ce12f4e762b,UFC 253: Adesanya vs. Costa
+23,831b937811804dad,UFC Fight Night: Covington vs. Woodley
+24,9c37681096c6f3a9,UFC Fight Night: Waterson vs. Hill
+25,542db012217ecb83,UFC Fight Night: Overeem vs. Sakai
+26,e29cf523ebd155c5,UFC Fight Night: Smith vs. Rakic
+27,af1e5c64b8663aa0,UFC Fight Night: Munhoz vs. Edgar
+28,bda04c573563cc2e,UFC 252: Miocic vs. Cormier 3
+29,7a82635ffa9b59fe,UFC Fight Night: Lewis vs. Oleinik
+30,3746e21bb508391a,UFC Fight Night: Brunson vs. Shahbazyan
+31,dde70a112e053a6c,UFC Fight Night: Whittaker vs. Till
+32,ddbd0d6259ce57cc,UFC Fight Night: Figueiredo vs. Benavidez 2
+33,18f5669a92e99d92,UFC Fight Night: Kattar vs. Ige
+34,dbd198f780286aca,UFC 251: Usman vs. Masvidal
+35,c32eab6c2119e989,UFC Fight Night: Poirier vs. Hooker
+36,2eab7a6c8b0ed8cc,UFC Fight Night: Blaydes vs. Volkov
+37,1e13936d708bcff7,UFC Fight Night: Eye vs. Calvillo
+38,4c12aa7ca246e7a4,UFC 250: Nunes vs. Spencer
+39,14b9e0f2679a2205,UFC Fight Night: Woodley vs. Burns
+40,dfb965c9824425db,UFC Fight Night: Overeem vs. Harris
+41,5f8e00c27b7e7410,UFC Fight Night: Smith vs. Teixeira
+42,898337ef520fe4d3,UFC 249: Ferguson vs. Gaethje
+43,53278852bcd91e11,UFC Fight Night: Lee vs. Oliveira
+44,0b5b6876c2a4723f,UFC 248: Adesanya vs. Romero
+45,fc9a9559a05f2704,UFC Fight Night: Benavidez vs. Figueiredo
+46,33b2f68ef95252e0,UFC Fight Night: Felder vs. Hooker
+47,5df17b3620145578,UFC Fight Night: Anderson vs. Blachowicz
+48,b26d3e3746fb4024,UFC 247: Jones vs. Reyes
+49,44aa652b181bcf68,UFC Fight Night: Blaydes vs. Dos Santos
+50,0c1773639c795466,UFC 246: McGregor vs. Cowboy
+51,74fefd43f073cd2f,UFC Fight Night: Edgar vs. The Korean Zombie
+52,4565d435005319c0,UFC 245: Usman vs. Covington
+53,b09890ba7ce1d1e2,UFC Fight Night: Overeem vs. Rozenstruik
+54,81ca2c245b19b3c5,UFC Fight Night: Blachowicz vs. Jacare
+55,8d5daf67983b65ba,UFC Fight Night: Zabit vs. Kattar
+56,fd87b1bbfcde9d5e,UFC 244: Masvidal vs. Diaz
+57,df05aa15b2d66f57,UFC Fight Night: Maia vs. Askren
+58,3ae10ac4df3df05c,UFC Fight Night: Reyes vs. Weidman
+59,0941df56f6ac954b,UFC Fight Night: Joanna vs. Waterson
+60,3cf68c1d17f66af7,UFC 243: Whittaker vs. Adesanya
+61,1bf49bf829964144,UFC Fight Night: Hermansson vs. Cannonier
+62,94a5aaf573f780ad,UFC Fight Night: Rodriguez vs. Stephens
+63,4834ff149dc9542a,UFC Fight Night: Cowboy vs. Gaethje
+64,a79bfbc01b2264d6,UFC 242: Khabib vs. Poirier
+65,2c104b7e59a72629,UFC Fight Night: Andrade vs. Zhang
+66,70167689d6a01793,UFC 241: Cormier vs. Miocic 2
+67,e5d03e4d966126bd,UFC Fight Night: Shevchenko vs. Carmouche 2
+68,03da33a102d9a45f,UFC Fight Night: Covington vs. Lawler
+69,abcf7e55a0a9ed89,UFC 240: Holloway vs. Edgar
+70,9e0f28d1f639ad73,UFC Fight Night: Dos Anjos vs. Edwards
+71,2f8f3c69522db931,UFC Fight Night: De Randamie vs. Ladd
+72,6c9383ffab2725a5,UFC 239: Jones vs. Santos
+73,c0c1bc0766df4c00,UFC Fight Night: Ngannou vs. Dos Santos
+74,b16a7e6a627e9789,UFC Fight Night: Moicano vs. The Korean Zombie
+75,e31502e3f79d00c5,UFC 238: Cejudo vs. Moraes
+76,cbc071cb20ea59c7,UFC Fight Night: Gustafsson vs. Smith
+77,6b8f28da9a483049,UFC Fight Night: Dos Anjos vs. Lee
+78,9de7c97e1c0d7927,UFC 237: Namajunas vs. Andrade
+79,351264d11286d09a,UFC Fight Night: Iaquinta vs. Cowboy
+80,c912f676692c353a,UFC Fight Night: Jacare vs. Hermansson
+81,7dcf06c1967801c1,UFC Fight Night: Overeem vs. Oleinik
+82,b0550072e5f0afa7,UFC 236: Holloway vs. Poirier 2
+83,9649d75defe0dedb,UFC Fight Night: Barboza vs. Gaethje
+84,487c170da059857d,UFC Fight Night: Thompson vs. Pettis
+85,80eacd4da0617c57,UFC Fight Night: Till vs. Masvidal
+86,e96d8538d3f9d0ed,UFC Fight Night: Lewis vs. Dos Santos
+87,2d5fbe2103f97053,UFC 235: Jones vs. Smith
+88,6546af7ab545b90c,UFC Fight Night: Blachowicz vs. Santos
+89,a7a79b8efbceaaac,UFC Fight Night: Ngannou vs. Velasquez
+90,b5882371e2a3900d,UFC 234: Adesanya vs. Silva
+91,84283233ec42be5f,UFC Fight Night: Assuncao vs. Moraes 2
+92,d4da8995fc91e7ef,UFC Fight Night: Cejudo vs. Dillashaw
+93,c046100aea0dba9a,UFC 232: Jones vs. Gustafsson 2
+94,7a703c565ccaa18f,UFC Fight Night: Lee vs. Iaquinta
+95,2a74bbba57058f12,UFC 231: Holloway vs. Ortega
+96,d1d20e651e6cbc02,UFC Fight Night: Dos Santos vs. Tuivasa
+97,c7ac79839e86ce33,The Ultimate Fighter: Heavy Hitters Finale
+98,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2
+99,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio
+100,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez
+101,20821819c401ced8,UFC 230: Cormier vs. Lewis
+102,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith
+103,1ef0eae31904e534,UFC 229: Khabib vs. McGregor
+104,852454c572675334,UFC Fight Night: Marreta vs. Anders
+105,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik
+106,d5ae8074631762fc,UFC 228: Woodley vs. Till
+107,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick
+108,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2
+109,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2
+110,4f732e58ed907eff,UFC Fight Night: Shogun vs. Smith
+111,b45d6b73f4ca4467,UFC Fight Night: Dos Santos vs. Ivanov
+112,35585d970300d45a,UFC 226: Miocic vs. Cormier
+113,8215e4fe24e8e81b,The Ultimate Fighter: Undefeated Finale
+114,ac5f67109accb482,UFC Fight Night: Cowboy vs. Edwards
+115,2eae41f61776c60f,UFC 225: Whittaker vs. Romero 2
+116,d29b5c4f22c6357d,UFC Fight Night: Rivera vs. Moraes
+117,f5990c11974d8e9c,UFC Fight Night: Thompson vs. Till
+118,3144121470023e9a,UFC Fight Night: Maia vs. Usman
+119,67ec58d7cf599835,UFC 224: Nunes vs. Pennington
+120,ad99fa5325519169,UFC Fight Night: Barboza vs. Lee
+121,620be7e0712d431b,UFC Fight Night: Poirier vs. Gaethje
+122,49e7e05f902479ca,UFC 223: Khabib vs. Iaquinta
+123,eed2b71d77d95416,UFC Fight Night: Werdum vs. Volkov
+124,7929be8290289a47,UFC 222: Cyborg vs. Kunitskaya
+125,daa89f01e1c0f42a,UFC Fight Night: Emmett vs. Stephens
+126,d181689653115b6a,UFC Fight Night: Cerrone vs. Medeiros
+127,15515e797aedc137,UFC 221: Romero vs. Rockhold
+128,7cf20446453f852b,UFC Fight Night: Machida vs. Anders
+129,602bb270f2bdbf02,UFC Fight Night: Jacare vs. Brunson 2
+130,02177caefe7c07d4,UFC 220: Miocic vs. Ngannou
+131,fc1868f56d3036eb,UFC Fight Night: Stephens vs. Choi
+132,04076783ca83d6ae,UFC 219: Cyborg vs. Holm
+133,eaa0a728cc91ef60,UFC Fight Night: Lawler vs. Dos Anjos
+134,bcd124bcd3d5be46,UFC Fight Night: Swanson vs. Ortega
+135,9e30f69cc0869301,UFC 218: Holloway vs. Aldo 2
+136,30e8b4505f5ccf92,The Ultimate Fighter: A New World Champion Finale
+137,e7bc606d269896aa,UFC Fight Night: Bisping vs. Gastelum
+138,caced97768818230,UFC Fight Night: Werdum vs. Tybura
+139,d856a0080ac09ed7,UFC Fight Night: Poirier vs. Pettis
+140,a25b71fe5e31fa97,UFC 217: Bisping vs. St-Pierre
+141,a7724f51e32e763e,UFC Fight Night: Brunson vs. Machida
+142,d6b68eaf4b68b160,UFC Fight Night: Cerrone vs. Till
+143,cc5834a495d1ea08,UFC 216: Ferguson vs. Lee
+144,9211aae062b799d6,UFC Fight Night: Saint Preux vs. Okami
+145,1979c80150f630c4,UFC Fight Night: Rockhold vs. Branch
+146,d86e913c548c07c2,UFC 215: Nunes vs Shevchenko 2
+147,a3244e3238541482,UFC Fight Night: Volkov vs. Struve
+148,f4a031ac205ac580,UFC Fight Night: Pettis vs. Moreno
+149,ff9578cdbfabd323,UFC 214: Cormier vs. Jones 2
+150,9f3d6ddef3d3cccc,UFC Fight Night: Weidman vs. Gastelum
+151,d7907a9a968e4d29,UFC Fight Night: Nelson vs. Ponzinibbio
+152,686cccbf1a4de453,UFC 213: Romero vs. Whittaker
+153,23bd78c3f89bdb54,The Ultimate Fighter: Redemption Finale
+154,99bf06f20491cb54,UFC Fight Night: Chiesa vs. Lee
+155,353de740bb6c7e75,UFC Fight Night: Holm vs. Correia
+156,90e7447d8b7f3f35,UFC Fight Night: Lewis vs. Hunt
+157,1507214bbc7a79e2,UFC 212: Aldo vs. Holloway
+158,1c7cce2f5c17160d,UFC Fight Night: Gustafsson vs. Teixeira
+159,5df10509264586e5,UFC 211: Miocic vs. Dos Santos
+160,bc7f7f0ba3db74d2,UFC Fight Night: Swanson vs. Lobov
+161,ed069a95aaaf4f56,UFC on FOX: Johnson vs. Reis
+162,e7bfdb5e0112891e,UFC 210: Cormier vs. Johnson 2
+163,c0231720fe516994,UFC Fight Night: Manuwa vs. Anderson
+164,47b7e4e60813b7b2,UFC Fight Night: Belfort vs. Gastelum
+165,20e403a1acfef130,UFC 209: Woodley vs. Thompson 2
+166,b4ad3a06ee4d660c,UFC Fight Night: Lewis vs. Browne
+167,865aa315ea62c511,UFC 208: Holm vs. De Randamie
+168,6a8a06b542e1516d,UFC Fight Night: Bermudez vs. The Korean Zombie
+169,4512e46543b960ad,UFC on FOX: Shevchenko vs. Pena
+170,46effbd1135423c5,UFC Fight Night: Rodriguez vs. Penn
+171,4b2390cfaceb91d8,UFC 207: Nunes vs. Rousey
+172,32541eb5d12668b4,UFC on FOX: VanZant vs. Waterson
+173,6e3282d57d2467a0,UFC 206: Holloway vs. Pettis
+174,7139cd2ae4bf6a29,UFC Fight Night: Lewis vs. Abdurakhimov
+175,bd4389b71fdc0ce2,The Ultimate Fighter: Tournament of Champions Finale
+176,73e09f837f3b5ecc,UFC Fight Night: Whittaker vs. Brunson
+177,5cde96e0a1a1fffe,UFC Fight Night: Bader vs. Nogueira
+178,6810d8d2dd557cf9,UFC Fight Night: Mousasi vs. Hall 2
+179,4956f60b7fa57c1a,UFC 205: Alvarez vs McGregor
+180,6083f497c22cc075,UFC Fight Night: Dos Anjos vs. Ferguson
+181,154a6b3ffae264cd,UFC 204: Bisping vs. Henderson
+182,a196332ee4aa8a82,UFC Fight Night: Lineker vs. Dodson
+183,e18012194473e8b0,UFC Fight Night: Cyborg vs. Lansberg
+184,d6455cb4bee503ce,UFC Fight Night: Poirier vs. Johnson
+185,2dc7f1762dc0a7ef,UFC 203: Miocic vs. Overeem
+186,2b4faacc16d66898,UFC Fight Night: Arlovski vs. Barnett
+187,cfbccfed4e4796fe,UFC on FOX: Maia vs. Condit
+188,5da4e8dc02e50ac0,UFC 202: Diaz vs. McGregor 2
+189,232c582f29f8f65e,UFC Fight Night: Rodriguez vs. Caceres
+190,72cbe507644a587c,UFC 201: Lawler vs. Woodley
+191,8a028648f3f0761d,UFC on FOX: Holm vs. Shevchenko
+192,5e7a28f20927d64a,UFC Fight Night: McDonald vs. Lineker
+193,aa5b4eff51bdc7d1,UFC 200: Tate vs Nunes
+194,cd42bbe8887bba90,The Ultimate Fighter: Team Joanna vs. Team Cláudia Finale
+195,45a2ba3ef82b9700,UFC Fight Night: Dos Anjos vs. Alvarez
+196,563d051c9e769b24,UFC Fight Night: MacDonald vs Thompson
+197,ff4c3ab594c7fac3,UFC 199: Rockhold vs. Bisping 2
+198,990060b2a68a7b82,UFC Fight Night: Almeida vs Garbrandt
+199,a4bf17bd3ba3423b,UFC 198: Werdum vs Miocic
+200,a314687f372b2cec,UFC Fight Night: Overeem vs Arlovski
+201,3d481aa374c954a1,UFC 197: Jones vs Saint Preux
+202,e7e970d508529bf3,UFC on FOX: Teixeira vs Evans
+203,4887e5bc4dbb73ff,UFC Fight Night: Rothwell vs Dos Santos
+204,e60201cfab7d656d,UFC Fight Night: Hunt vs Mir
+205,db1f2ed63b54b9a7,UFC 196: McGregor vs Diaz
+206,39c568f8c579913e,UFC Fight Night: Silva vs Bisping
+207,d56bb6dff2ae77eb,UFC Fight Night: Cowboy vs Cowboy
+208,de99da2c0d18d34a,UFC Fight Night: Hendricks vs Thompson
+209,b3fb8d2293e17a59,UFC on FOX: Johnson vs. Bader
+210,c6becb722706c7d8,UFC Fight Night: Dillashaw vs Cruz
+211,380e8b023290d091,UFC 195: Lawler vs Condit
+212,80d918336163b80c,UFC on FOX: Dos Anjos vs. Cowboy 2
+213,354808cf38d9d73c,UFC 194: Aldo vs McGregor
+214,20fbff570c678e1c,The Ultimate Fighter: Team McGregor vs. Team Faber Finale
+215,dd39f1ca787a3d9d,UFC Fight Night: Namajunas vs. VanZant
+216,4d636c3aa1105950,UFC Fight Night: Henderson vs Masvidal
+217,243b07fc65ccbb16,UFC Fight Night: Magny vs Gastelum
+218,8d04923f2db59b7f,UFC 193: Rousey vs Holm
+219,5345f86680378fc1,UFC Fight Night: Belfort vs Henderson 3
+220,f3155a94ca420126,UFC Fight Night: Holohan vs Smolka
+221,119ebea97e914dcf,UFC 192: Cormier vs Gustafsson
+222,a4dd5c9a75763295,UFC Fight Night: Barnett vs Nelson
+223,82f5c81f4e3c3eb5,UFC 191: Johnson vs Dodson 2
+224,2ce6541127b0e232,UFC Fight Night: Holloway vs Oliveira
+225,b71667c778b6d9e5,UFC Fight Night: Teixeira vs Saint Preux
+226,a9c45a8b21eabadc,UFC 190: Rousey vs Correia
+227,0c3838c8f7c620c2,UFC on FOX: Dillashaw vs. Barao II
+228,ef7fa30364cbe7f2,UFC Fight Night: Bisping vs Leites
+229,36877f0e62b25b96,UFC Fight Night: Mir vs Duffee
+230,a890f9a791ed615d,The Ultimate Fighter: American Top Team vs. Blackzilians Finale
+231,3be081c29bf734d9,UFC 189: Mendes vs McGregor
+232,86e388ed20761ad9,UFC Fight Night: Machida vs Romero
+233,194fc025f9355db6,UFC Fight Night: Jedrzejczyk vs Penne
+234,a58114c6dd0add64,UFC 188: Velasquez vs Werdum
+235,06dc1a58663579d2,UFC Fight Night: Boetsch vs Henderson
+236,aae0897825336b1a,UFC Fight Night: Condit vs Alves
+237,4f7e290e71d60f87,UFC 187: Johnson vs Cormier
+238,b1605ea39fba6af6,UFC Fight Night: Edgar vs Faber
+239,8a1b4330c7957961,UFC Fight Night: Miocic vs Hunt
+240,997b4f52f76a0b53,UFC 186: Johnson vs Horiguchi
+241,bc7cf284c1c2f16e,UFC on FOX: Machida vs Rockhold
+242,5de61b03868035ff,UFC Fight Night: Gonzaga vs Cro Cop 2
+243,16d09e800ad7ec79,UFC Fight Night: Mendes vs Lamas
+244,fa534853eb195270,UFC Fight Night: Maia vs LaFlare
+245,f54200f1dfb9b5d4,UFC 185: Pettis vs Dos Anjos
+246,ad4e9055bf8cd04d,UFC 184: Rousey vs Zingano
+247,0577808d22dfe79c,UFC Fight Night: Bigfoot vs Mir
+248,f9c7fe2682af3802,UFC Fight Night: Henderson vs Thatch
+249,43563a32c3f10e95,UFC 183: Silva vs Diaz
+250,706404da0775dcbc,UFC on FOX: Gustafsson vs Johnson
+251,f9aa6376ae16bfb4,UFC Fight Night: McGregor vs Siver
+252,a72d260b436924c4,UFC 182: Jones vs Cormier
+253,4e5bbc4566049cbf,UFC Fight Night: Machida vs Dollaway
+254,d4a12dfa4067742f,UFC on FOX: Dos Santos vs Miocic
+255,222d6b547de2e035,The Ultimate Fighter: A Champion Will Be Crowned Finale
+256,dfdd0c5dd0d4bc23,UFC 181: Hendricks vs Lawler II
+257,155a02a8b4311057,UFC Fight Night: Edgar vs Swanson
+258,59851163aaf1aed8,UFC 180: Werdum vs Hunt
+259,6ca68b636fbc1f18,UFC Fight Night 56: Shogun vs Saint Preux
+260,371a1c91b24dec2b,UFC Fight Night: Rockhold vs Bisping
+261,53f02bbc41d99432,UFC 179: Aldo vs Mendes 2
+262,0313bf497de9c470,UFC Fight Night: MacDonald vs Saffiedine
+263,8dc4f34c1f50d00d,UFC Fight Night: Nelson vs Story
+264,3bb030257966b022,UFC 178: Johnson vs Cariaso
+265,2dea80c069847321,UFC Fight Night: Hunt vs Nelson
+266,a71feb7ea7592a71,UFC Fight Night: Bigfoot vs Arlovski
+267,9bcfb40dbcd50568,UFC Fight Night: Jacare vs Mousasi
+268,269d103c96a4c3a5,UFC 177: Dillashaw vs Soto
+269,063649e21bc9d6d5,UFC Fight Night: Henderson vs Dos Anjos
+270,770b9d4813c25902,UFC Fight Night: Bisping vs Le
+271,fd7acf42bd6e7e95,UFC Fight Night: Bader vs Saint Preux
+272,05fbfe628658c538,UFC on FOX: Lawler vs Brown
+273,073eee4e62f0d988,UFC Fight Night: McGregor vs Brandao
+274,79ded75550efc139,UFC Fight Night: Cowboy vs Miller
+275,1c5879330d42255f,The Ultimate Fighter: Team Edgar vs. Team Penn Finale
+276,53adf5b845d91e4a,UFC 175: Weidman vs Machida
+277,c0ed7b208197e8de,UFC Fight Night: Swanson vs Stephens
+278,ac9521250dc1a14c,UFC Fight Night: Te Huna vs Marquardt
+279,5b5307450405abf0,UFC 174: Johnson vs Bagautinov
+280,1fcfc3709fe58151,UFC Fight Night: Henderson vs Khabilov
+281,59aaf2730b84698a,UFC Fight Night: Miocic vs Maldonado
+282,b757c73f443d4fca,UFC Fight Night: Munoz vs Mousasi
+283,9ca265dfe8323db3,UFC 173: Barao vs Dillashaw
+284,579fcdfcabd23a7b,UFC Fight Night: Brown vs Silva
+285,4f2fcbefb668689d,UFC 172: Jones vs Teixeira
+286,a421465acbe59c77,UFC on FOX: Werdum vs Browne
+287,f9f07bb5a43535ed,UFC Fight Night: Bisping vs Kennedy
+288,d632d156c0549e07,UFC Fight Night: Minotauro vs Nelson
+289,d5f820c11a121050,UFC Fight Night: Shogun vs Henderson 2
+290,179f1948dc234f1f,UFC 171: Hendricks vs Lawler
+291,ebc1f40e00e0c481,UFC Fight Night: Gustafsson vs Manuwa
+292,a26198ba5093147e,UFC Fight Night: Kim vs Hathaway
+293,3138fab619faf4d1,UFC 170: Rousey vs McMann
+294,51b0bb73a1da34bc,UFC Fight Night: Machida vs Mousasi
+295,fc31f896cde2bc2e,UFC 169: Barao vs Faber 2
+296,a8d521d913df4e31,UFC on FOX: Henderson vs Thomson
+297,30a09e43f15f1d75,UFC Fight Night: Rockhold vs Philippou
+298,e5c9de15bb58b1c6,UFC Fight Night: Saffiedine vs Lim
+299,83d0de122f2f9664,UFC 168: Weidman vs Silva 2
+300,480b702debcb5433,UFC on FOX: Johnson vs. Benavidez 2
+301,ee457ef1e1c326c1,UFC Fight Night: Hunt vs Bigfoot
+302,9a967e8e43dcef63,The Ultimate Fighter: Team Rousey vs. Team Tate Finale
+303,28f3c2258a1d8874,UFC 167: St-Pierre vs Hendricks
+304,5d7c18191b8aa432,UFC Fight Night: Belfort vs Henderson 2
+305,35dc6220b113b7ec,UFC Fight Night: Fight for the Troops 3
+306,60884f31ead1609c,UFC Fight Night: Machida vs Munoz
+307,eae4aec1a5a8ff01,UFC 166: Velasquez vs Dos Santos 3
+308,43612456979e5d5e,UFC Fight Night: Maia vs Shields
+309,df5a77121ba84a5d,UFC 165: Jones vs Gustafsson
+310,b23fca14c7b79935,UFC Fight Night: Teixeira vs Bader
+311,980b4e712489098e,UFC 164: Henderson vs Pettis 2
+312,e5c38954c006f15c,UFC Fight Night: Condit vs Kampmann 2
+313,cf1a88371c8cb690,UFC Fight Night: Shogun vs Sonnen
+314,ebc5af72ad5a28cb,UFC 163: Aldo vs Jung
+315,5330fe7e4c3af81c,UFC on FOX: Johnson vs Moraga
+316,e0b74df14f52cd15,UFC 162: Silva vs Weidman
+317,8fd1f27e86661ede,UFC 161: Evans vs Henderson
+318,7865707fd684d77b,UFC on FUEL TV: Nogueira vs. Werdum
+319,3c241737a6069b9f,UFC 160: Velasquez vs Silva 2
+320,030f08370fd1c2bb,UFC on FX: Belfort vs. Rockhold
+321,ea0ad155451ed1f5,UFC 159: Jones vs Sonnen
+322,aa79d5399571068e,UFC on FOX: Henderson vs Melendez
+323,ce47f49e5c386a9c,The Ultimate Fighter: Team Jones vs. Team Sonnen Finale
+324,6291ac0a3726732f,UFC on FUEL TV: Mousasi vs Latifi
+325,f1b2a4365799c48b,UFC 158: St-Pierre vs Diaz
+326,83c6c3e0f8bde8ee,UFC on FUEL TV: Silva vs. Stann
+327,09c44b317c98bf96,UFC 157: Rousey vs Carmouche
+328,4679a38cced7c64a,UFC on FUEL TV: Barao vs McDonald
+329,601cf40c09090853,UFC 156: Aldo vs Edgar
+330,738acab0c6934dd8,UFC on FOX: Johnson vs Dodson
+331,56f4b81ec4db61af,UFC on FX: Belfort vs Bisping
+332,c6e6926a81adcd00,UFC 155: Dos Santos vs Velasquez II
+333,c6da1c24fe473418,The Ultimate Fighter: Team Carwin vs. Team Nelson Finale
+334,e8c170a64dc920ac,UFC on FX: Sotiropoulos vs Pearson
+335,d1e6a6536ee62517,UFC on FOX: Henderson vs Diaz
+336,d41937647eae9a34,UFC 154: St-Pierre vs Condit
+337,319fa1bd3176bded,UFC Macao: Franklin vs Le
+338,96d173b7f92aa520,UFC 153: Silva vs Bonnar
+339,6a0b80a24f22e152,UFC on FX: Browne vs Bigfoot
+340,6cbb7661c3258617,UFC on FUEL TV: Struve vs Miocic
+341,53e533db1b8e9712,UFC 152: Jones vs Belfort
+342,3c48019bc387b80c,UFC 150: Henderson vs Edgar II
+343,f62850b3c7480db9,UFC on FOX: Shogun vs Vera
+344,abbc4fc02e0d84b3,UFC 149: Faber vs Barao
+345,d3b5ad3b15a64a18,UFC on FUEL TV: Munoz vs Weidman
+346,e8efeb9cf33b1941,UFC 148: Silva vs Sonnen 2
+347,3da19339ee7051d5,UFC 147: Silva vs Franklin 2
+348,505934897b8b4824,UFC on FX: Maynard vs Guida
+349,49590e0508b2c19f,UFC on FX: Johnson vs McCall
+350,96087e90d900f0ef,The Ultimate Fighter: Live Finale
+351,4985113c0928aa62,UFC 146: Dos Santos vs Mir
+352,8caca5857ce0e30b,UFC on FUEL TV: Korean Zombie vs Poirier
+353,5898357a45a73674,UFC on FOX: Diaz vs Miller
+354,155bfc7ed36622df,UFC 145: Jones vs Evans
+355,21f2974fd08085e3,UFC on FUEL TV: Gustafsson vs Silva
+356,b5ea750025697880,UFC on FX: Alves vs Kampmann
+357,8377c5572cb356f3,UFC 144: Edgar vs Henderson
+358,0a97691039c4bbfb,UFC on FUEL TV: Sanchez vs Ellenberger
+359,df2cf66d8c0123db,UFC 143: Diaz vs Condit
+360,c3c23c99477c041b,UFC on FOX: Evans vs Davis
+361,4d74641fac830182,UFC on FX: Guillard vs Miller
+362,18524b46c570730b,UFC 142: Aldo vs Mendes
+363,91720876db0ee468,UFC 141: Lesnar vs Overeem
+364,6d7886b094b471ac,UFC 140: Jones vs Machida
+365,1f5f75658551f2d3,The Ultimate Fighter: Team Bisping vs Team Miller Finale
+366,0ec821423baa26bd,UFC 139: Shogun vs Henderson
+367,1c061eb6e29eaa0a,UFC on FOX: Velasquez vs Dos Santos
+368,e780ccc79a209985,UFC 138: Leben vs Munoz
+369,8788beb528894f33,UFC 137: Penn vs Diaz
+370,7d5b12de1625984e,UFC 136: Edgar vs Maynard 3
+371,44f9c777fed7ca03,UFC Live: Cruz vs Johnson
+372,73ef22f25d0f70e2,UFC 135: Jones vs Rampage
+373,1ffc38f67785797b,UFC Fight Night: Shields vs Ellenberger
+374,18968f97ad34f15c,UFC 134: Silva vs Okami
+375,4c8d6fde2dde07c4,UFC Live: Hardy vs Lytle
+376,f1f9e48a0d150757,UFC 133: Evans vs Ortiz 2
+377,83fd97284f4bb4a4,UFC 132: Cruz vs Faber
+378,d023ae89a2a4a41e,UFC Live: Kongo vs Barry
+379,aac5ac38148f0528,UFC 131: Dos Santos vs Carwin
+380,3ba3b5cc94498437,The Ultimate Fighter: Team Lesnar vs Team dos Santos Finale
+381,b732b326c362fb62,UFC 130: Rampage vs Hamill
+382,2db7fa8db6bc9632,UFC 129: St-Pierre vs Shields
+383,8a59d346dc976a10,UFC Fight Night: Nogueira vs Davis
+384,1411c630ba711b64,UFC 128: Shogun vs Jones
+385,a54fc2d6fc224dc3,UFC Live: Sanchez vs Kampmann
+386,88a9bc81271ccd89,UFC 127: Penn vs Fitch
+387,65ddc8a9ac4e8531,UFC 126: Silva vs Belfort
+388,282fa667ff9c51ed,UFC Fight Night: Fight for the Troops 2
+389,d1152823307d7e7c,UFC 125: Resolution
+390,132f860d02953f4c,UFC 124: St-Pierre vs Koscheck 2
+391,5d7bdab5e03e3216,The Ultimate Fighter: Team GSP vs Team Koscheck Finale
+392,dd992d569aaebee6,UFC 123: Rampage vs Machida
+393,0ff11cc094e887bc,UFC 122: Marquardt vs Okami
+394,afdb76fbd86f6d11,UFC 121: Lesnar vs Velasquez
+395,d512d9f204059f57,UFC 120: Bisping vs Akiyama
+396,ad32471f01e7b1a5,UFC 119: Mir vs Cro Cop
+397,acff437707625fc7,UFC Fight Night: Marquardt vs Palhares
+398,054defd5420a551f,UFC 118: Edgar vs Penn 2
+399,2f3f12002564bb55,UFC 117: Silva vs Sonnen
+400,f12f979b657ab876,UFC Live: Jones vs Matyushenko
+401,140745cbbcb023ac,UFC 116: Lesnar vs Carwin
+402,9bcf8603ceb25680,The Ultimate Fighter: Team Liddell vs Team Ortiz Finale
+403,cfb65863d5099327,UFC 115: Liddell vs Franklin
+404,bfc2fc38a0e20211,UFC 114: Rampage vs Evans
+405,d0c29452d3272603,UFC 113: Machida vs Shogun 2
+406,24b033b3daf1c9df,UFC 112: Invincible
+407,3ed134d85dfbd7b4,UFC Fight Night: Florian vs Gomi
+408,c80095f6092271a7,UFC 111: St-Pierre vs Hardy
+409,3795fca327cbcf23,UFC Live: Vera vs Jones
+410,49efbdc6c9f650c4,UFC 110: Nogueira vs Velasquez
+411,15edcf67ccf5be84,UFC 109: Relentless
+412,58bc81376286b3d3,UFC Fight Night: Maynard vs Diaz
+413,a6d8bfe9e0c8153b,UFC 108: Evans vs Silva
+414,821cd80aab70d5f9,UFC 107: Penn vs Sanchez
+415,91d73ee59347ac16,The Ultimate Fighter: Heavyweights Finale
+416,84a067c46306a737,UFC 106: Ortiz vs Griffin 2
+417,fa8b9e6b0c2269f8,UFC 105: Couture vs Vera
+418,7c0847d3854a95f2,UFC 104: Machida vs Shogun
+419,896c322f56b8be5a,UFC 103: Franklin vs Belfort
+420,a8ea84cbe1655f0a,UFC Fight Night: Diaz vs Guillard
+421,c6a33ff198aaaeeb,UFC 102: Couture vs Nogueira
+422,48d1f690b763934c,UFC 101: Declaration
+423,0ee783aa00e468f0,UFC 100
+424,4908c5ee68a50ee5,The Ultimate Fighter: United States vs. United Kingdom Finale
+425,cb6783c39c01d896,UFC 99: The Comeback
+426,c4b6099f0d25f75e,UFC 98: Evans vs Machida
+427,1652f3213655b935,UFC 97: Redemption
+428,04d5718ed2661e8c,UFC Fight Night: Condit vs Kampmann
+429,29b5791e51e7e832,UFC 96: Jackson vs Jardine
+430,7d21de9c6d7c98b2,UFC 95: Sanchez vs Stevenson
+431,d1759b2b7be9be56,UFC Fight Night: Lauzon vs Stephens
+432,2a542ee8a8b83559,UFC 94: St-Pierre vs Penn 2
+433,68c6cd5287b473a7,UFC 93: Franklin vs Henderson
+434,23ab42947c1990e3,UFC 92: The Ultimate 2008
+435,ea398c802d9998ee,The Ultimate Fighter: Team Nogueira vs. Team Mir Finale
+436,30cd319d39ee689b,UFC Fight Night - Fight for the Troops
+437,a2b06ca02bca14c0,UFC 91: Couture vs Lesnar
+438,c670aa48827d6be6,UFC 90: Silva vs Cote
+439,312f47c3d2f83ffa,UFC 89: Bisping vs Leben
+440,279093302a6f44b3,UFC Fight Night: Diaz vs Neer
+441,0db70ca89e1c7374,UFC 88: Breakthrough
+442,19ffeb5e3fffd6d5,UFC 87: Seek And Destroy
+443,46f11d15c0134fe3,UFC: Silva vs Irvin
+444,bf12aca029bfcc47,UFC 86: Jackson vs Griffin
+445,2299605af59fd309,The Ultimate Fighter: Team Rampage vs Team Forrest Finale
+446,2efbc83a6b9b7f86,UFC 85: Bedlam
+447,2549d63da9c456cb,UFC 84: Ill Will
+448,ad047e3073a775f3,UFC 83: Serra vs St-Pierre 2
+449,b9e871af730f826c,UFC Fight Night: Florian vs Lauzon
+450,598a58db87b890ee,UFC 82: Pride of a Champion
+451,597db668b01c442c,UFC 81: Breaking Point
+452,33e33d51f289d2a1,UFC Fight Night: Swick vs Burkman
+453,a24e080000fa7a35,UFC 80: Rapid Fire
+454,7269329bd87eb479,UFC 79: Nemesis
+455,df85d6ec3493d120,The Ultimate Fighter: Team Hughes vs. Team Serra Finale
+456,1d147d4163a6989b,UFC 78: Validation
+457,91181b29be041f1c,UFC 77: Hostile Territory
+458,bad28b7b34f334de,UFC 76: Knockout
+459,f341f9551ba744e2,UFC Fight Night: Thomas vs Florian
+460,0aa92558424ced9e,UFC 75: Champion vs Champion
+461,a5c53b3ddb31cc7d,UFC 74: Respect
+462,2a6f8136da1e52c0,UFC 73: Stacked
+463,e7ec11096eac0282,The Ultimate Fighter: Team Pulver vs. Team Penn Finale
+464,5ca158b1cc9cb242,UFC 72: Victory
+465,304fcd812f12c589,UFC Fight Night: Stout vs Fisher
+466,2e04a3b4a2011b97,UFC 71: Liddell vs Jackson
+467,4604ab1de9058474,UFC 70: Nations Collide
+468,c1684f00c626f4c0,UFC 69: Shootout
+469,a6c2f5381d575920,UFC Fight Night: Stevenson vs Guillard
+470,de3ed2e152520c8d,UFC 68: The Uprising
+471,63b65af1c5cb02cb,UFC 67: All or Nothing
+472,13c4313ed0f744f3,UFC Fight Night: Evans vs Salmon
+473,ee5df903f80c6816,UFC 66: Liddell vs Ortiz 2
+474,21b8a0f5c231096f,UFC Fight Night: Sanchez vs Riggs
+475,3fed746acfd026dd,UFC 65: Bad Intentions
+476,baf942f4bcb09894,The Ultimate Fighter: The Comeback Finale
+477,13b2f59210dda9cc,UFC 64: Unstoppable
+478,577ec7e108b94be3,Ortiz vs Shamrock 3: The Final Chapter
+479,13e62d766b709aa6,UFC 63: Hughes vs Penn
+480,f717b6002486f73f,UFC 62: Liddell vs Sobral
+481,46c8ec317aff28ac,UFC Fight Night 6
+482,f70144caea5c4c80,UFC 61: Bitter Rivals
+483,445a98acb8985970,UFC Fight Night 5
+484,1dab0d1d81dd06db,The Ultimate Fighter: Team Ortiz vs. Team Shamrock Finale
+485,a54a35a670d8e852,UFC 60: Hughes vs Gracie
+486,03688dc3c3af3ac1,UFC 59: Reality Check
+487,b361180739bed4b0,UFC Fight Night 4
+488,0e9869d712e81f8f,UFC 58: USA vs Canada
+489,977081bc01197656,UFC 57: Liddell vs Couture 3
+490,2ee09ec2a0695eb9,UFC Fight Night 3
+491,c7e9d15cfce52f1d,UFC 56: Full Force
+492,31ceaf0e670c1578,The Ultimate Fighter: Team Hughes vs. Team Franklin Finale
+493,271fe91f4ba9d2c5,UFC 55: Fury
+494,efaf544314bb5c2e,UFC Fight Night 2
+495,669a3cb6e394f515,UFC 54: Boiling Point
+496,3f24c96753dbd9f9,UFC Fight Night 1
+497,d3711d3784b76255,UFC 53: Heavy Hitters
+498,c933d423ebdbbbdb,UFC 52: Couture vs Liddell 2
+499,fbbde91f7bc2d3c5,The Ultimate Fighter: Team Couture vs. Team Liddell Finale
+500,85d905f7c4f5a1af,UFC 51: Super Saturday
+501,ce783bf73b5131f9,UFC 50: The War Of '04
+502,b4bc2e3353a770b5,UFC 49: Unfinished Business
+503,429e7d3725852ce9,UFC 48: Payback
+504,e8fb8e53bc2e29d6,UFC 47: It's On!
+505,94609dd91731d428,UFC 46: Supernatural
+506,e670f8cc2969a789,UFC 45: Revolution
+507,c61f66d8c3fd5f07,UFC 44: Undisputed
+508,108afe61a26bcbf4,UFC 43: Meltdown
+509,ae58685caf8e4a0d,UFC 42: Sudden Impact
+510,bba678d312590087,UFC 41: Onslaught
+511,e06fd1260ac865a7,UFC 40: Vendetta
+512,0cf935519d439ba6,UFC 39: The Warriors Return
+513,1dc56b59cb28425d,UFC 38: Brawl at the Hall
+514,9ccdd2ce45903f34,UFC 37.5: As Real As It Gets
+515,9fd1f08dd4aec14a,UFC 37: High Impact
+516,02fc8f50f56eb307,UFC 36: Worlds Collide
+517,946f341df6472ee0,UFC 35: Throwdown
+518,4dc496aa0cfc0d95,UFC 34: High Voltage
+519,c75b99887c8c3f5a,UFC 33: Victory in Vegas
+520,7b9aa973e5c04624,UFC 32: Showdown in the Meadowlands
+521,20bd6c3e03c46ee6,UFC 31: Locked and Loaded
+522,2b1587a3376ab743,UFC 30: Battle on the Boardwalk
+523,08ae5cd9aef7ddd3,UFC 29: Defense of the Belts
+524,da6dfd09cca1d705,UFC 28: High Stakes
+525,31652c9267606d54,UFC 27: Ultimate Bad Boyz
+526,cedfdf8d423d500c,UFC 26: Ultimate Field Of Dreams
+527,d2b1c1317a39f6c6,UFC 25: Ultimate Japan 3
+528,20ec0061400178ca,UFC 24: First Defense
+529,a8fa0c4e95512806,UFC 23: Ultimate Japan 2
+530,afaad7d6a581e307,UFC 22: Only One Can be Champion
+531,1a1a4d7a29041d77,UFC 21: Return of the Champions
+532,a7b48e18ca27795d,UFC 20: Battle for the Gold
+533,a220be6d41d6f97d,UFC 19: Ultimate Young Guns
+534,c9bbf1a0285a8076,UFC 18: The Road to the Heavyweight Title
+535,32a3025d5db456ae,UFC - Ultimate Brazil
+536,4a01dc8376736ef5,UFC 17: Redemption
+537,749685d24e2cac50,UFC 16: Battle in the Bayou
+538,29f935654825331b,UFC - Ultimate Japan
+539,07a18ae55dfc3cd9,UFC 15: Collision Course
+540,dc950d59dc590aca,UFC 14: Showdown
+541,5bd533d50c8e7b8a,UFC 13: The Ultimate Force
+542,96eff1a628adcc7f,UFC 12: Judgement Day
+543,9b5b5a75523728f3,UFC - Ultimate Ultimate '96
+544,6ceff86fae4f6b3b,UFC 11: The Proving Ground
+545,aee8eecfc4bfb1e7,UFC 10: The Tournament
+546,a390eb8a9b2df298,UFC 9: Motor City Madness
+547,b63e800c18e011b5,UFC 8: David vs Goliath
+548,31bbd46d57dfbcb7,UFC - Ultimate Ultimate '95
+549,5af480a3b2e1726b,UFC 7: The Brawl in Buffalo
+550,1c3f5e85b59ec710,UFC 6: Clash of the Titans
+551,dedc3bb440d09554,UFC 5: The Return of the Beast
+552,b60391da771deefe,UFC 4: Revenge of the Warriors
+553,1a49e0670dfaca31,UFC 3: The American Dream
+554,a6a9ab5a824e8f66,UFC 2: No Way Out
