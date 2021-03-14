@@ -1,5 +1,3 @@
-from re import T
-from typing import Text
 import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
