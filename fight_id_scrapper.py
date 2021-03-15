@@ -18,4 +18,4 @@ for id in event_ids['event_id']:
     print(count)  
 
 fight_ids = pd.DataFrame.from_dict(fight_id_data, orient='index', columns=['fight_id'])
-fight_ids.to_csv('./data/raw_data/fights_id.csv')
+fight_ids.to_csv('./data/raw_data/fights_ids.csv')
