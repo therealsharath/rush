@@ -38,7 +38,7 @@ for id in fight_ids['fight_id']:
             championship_fight = False
         
         #Weight class
-        weight_class = parsed_content.find('i', class_="b-fight-details__fight-title").text.strip().split()[0]
+        weight_class = " ".join(parsed_content.find('i', class_="b-fight-details__fight-title").text.strip().split()[:-1])
 
         #Key details
         key_details = parsed_content.find('div', class_="b-fight-details__content")
