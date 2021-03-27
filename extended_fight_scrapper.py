@@ -2,13 +2,14 @@ import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
-fight_ids = pd.read_csv("./data/raw_data/fight_ids.csv")
+fight_ids = pd.read_csv("./data/processed_data/extended_fight_ids.csv")
 
 fight_raw_data = {}
 count = 0
 
-for id in fight_ids['fight_id']:
+for row in fight_ids.iterrows():
     try:
+        id = row[1]['fight_id']
         #Getting the stats page of every single fight
         page = requests.get("http://ufcstats.com/fight-details/"+id)
         parsed_content = bs(page.content, 'html.parser')
@@ -91,17 +92,20 @@ for id in fight_ids['fight_id']:
         fight_stats = [id, fighter_R, fighter_B, winner, championship_fight, weight_class, method, last_round, stop_time, fight_format, referee]
         fight_stats.extend(fighter_R_stats)
         fight_stats.extend(fighter_B_stats)
+        fight_stats.append(row[1]['fight_date'])
+        fight_stats.append(row[1]['event_name'])
+        fight_stats.append(row[1]['location'])
         fight_raw_data[len(fight_raw_data) + 1] = fight_stats
-        
+
         if len(fight_raw_data) % 50 == 0:
             print(len(fight_raw_data))
             #Storing fight data
-            fight_data = pd.DataFrame.from_dict(fight_raw_data, orient='index', columns=['fight_id', 'fighter_r', 'fighter_b', 'winner', 'title_fight', 'weight_class', 'win_by', 'last_round', 'stoppage_time', 'fight_format', 'referee', 'r_kd', 'r_sig_str', 'r_sig_str_pct', 'r_total_str', 'r_td', 'r_td_pct', 'r_sub_att', 'r_rev', 'r_ctrl', 'r_head', 'r_body', 'r_leg', 'r_distance', 'r_clinch', 'r_ground', 'b_kd', 'b_sig_str', 'b_sig_str_pct', 'b_total_str', 'b_td', 'b_td_pct', 'b_sub_att', 'b_rev', 'b_ctrl', 'b_head', 'b_body', 'b_leg', 'b_distance', 'b_clinch', 'b_ground'])
-            fight_data.to_csv('./data/raw_data/extended_fights.csv')
+            fight_data = pd.DataFrame.from_dict(fight_raw_data, orient='index', columns=['fight_id', 'fighter_r', 'fighter_b', 'winner', 'title_fight', 'weight_class', 'win_by', 'last_round', 'stoppage_time', 'fight_format', 'referee', 'r_kd', 'r_sig_str', 'r_sig_str_pct', 'r_total_str', 'r_td', 'r_td_pct', 'r_sub_att', 'r_rev', 'r_ctrl', 'r_head', 'r_body', 'r_leg', 'r_distance', 'r_clinch', 'r_ground', 'b_kd', 'b_sig_str', 'b_sig_str_pct', 'b_total_str', 'b_td', 'b_td_pct', 'b_sub_att', 'b_rev', 'b_ctrl', 'b_head', 'b_body', 'b_leg', 'b_distance', 'b_clinch', 'b_ground', 'fight_date', 'event_name', 'location'])
+            fight_data.to_csv('./data/raw_data/combined_fights.csv')
     except:
         print(id)
         continue
 
 #Storing fight data
-fight_data = pd.DataFrame.from_dict(fight_raw_data, orient='index', columns=['fight_id', 'fighter_r', 'fighter_b', 'winner', 'title_fight', 'weight_class', 'win_by', 'last_round', 'stoppage_time', 'fight_format', 'referee', 'r_kd', 'r_sig_str', 'r_sig_str_pct', 'r_total_str', 'r_td', 'r_td_pct', 'r_sub_att', 'r_rev', 'r_ctrl', 'r_head', 'r_body', 'r_leg', 'r_distance', 'r_clinch', 'r_ground', 'b_kd', 'b_sig_str', 'b_sig_str_pct', 'b_total_str', 'b_td', 'b_td_pct', 'b_sub_att', 'b_rev', 'b_ctrl', 'b_head', 'b_body', 'b_leg', 'b_distance', 'b_clinch', 'b_ground'])
-fight_data.to_csv('./data/raw_data/extended_fights.csv')
+fight_data = pd.DataFrame.from_dict(fight_raw_data, orient='index', columns=['fight_id', 'fighter_r', 'fighter_b', 'winner', 'title_fight', 'weight_class', 'win_by', 'last_round', 'stoppage_time', 'fight_format', 'referee', 'r_kd', 'r_sig_str', 'r_sig_str_pct', 'r_total_str', 'r_td', 'r_td_pct', 'r_sub_att', 'r_rev', 'r_ctrl', 'r_head', 'r_body', 'r_leg', 'r_distance', 'r_clinch', 'r_ground', 'b_kd', 'b_sig_str', 'b_sig_str_pct', 'b_total_str', 'b_td', 'b_td_pct', 'b_sub_att', 'b_rev', 'b_ctrl', 'b_head', 'b_body', 'b_leg', 'b_distance', 'b_clinch', 'b_ground', 'fight_date', 'event_name', 'location'])
+fight_data.to_csv('./data/raw_data/combined_fights.csv')
