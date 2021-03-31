@@ -88,22 +88,22 @@ for idx, fight in fights.iterrows():
     b_ctrl += int(b_ctrl_split[1])
     fight['b_ctrl'] = str(b_ctrl)
 
-    #takedowns
+    #head
     if fight['r_head'] != '---' and  fight['r_head'] != '--':
         r_total_str = fight['r_head'].split()
-        fight['r_att_td'] = r_total_str[0]
-        fight['r_lan_td'] = r_total_str[2]
+        fight['r_att_head'] = r_total_str[0]
+        fight['r_lan_head'] = r_total_str[2]
     else:
-        fight['r_att_td'] = '0'
-        fight['r_lan_td'] = '0'
+        fight['r_att_head'] = '0'
+        fight['r_lan_head'] = '0'
     
-    if fight['b_td'] != '---' and  fight['b_td'] != '--':
+    if fight['b_head'] != '---' and  fight['b_head'] != '--':
         b_sig_str = fight['b_td'].split()
-        fight['b_att_td'] = b_sig_str[0]
-        fight['b_lan_td'] = r_sig_str[2]
+        fight['b_att_head'] = b_sig_str[0]
+        fight['b_lan_head'] = r_sig_str[2]
     else:
-        fight['b_att_td'] = '0'
-        fight['b_lan_td'] = '0'
+        fight['b_att_head'] = '0'
+        fight['b_lan_head'] = '0'
 
-    print(fight['b_ctrl'])
+    print(fight['b_att_head'])
     break
