@@ -105,5 +105,22 @@ for idx, fight in fights.iterrows():
         fight['b_att_head'] = '0'
         fight['b_lan_head'] = '0'
 
-    print(fight['b_att_head'])
+    #body
+    if fight['r_body'] != '---' and  fight['r_body'] != '--':
+        r_total_str = fight['r_body'].split()
+        fight['r_att_body'] = r_total_str[0]
+        fight['r_lan_body'] = r_total_str[2]
+    else:
+        fight['r_att_body'] = '0'
+        fight['r_lan_body'] = '0'
+    
+    if fight['b_body'] != '---' and  fight['b_body'] != '--':
+        b_sig_str = fight['b_body'].split()
+        fight['b_att_body'] = b_sig_str[0]
+        fight['b_lan_body'] = r_sig_str[2]
+    else:
+        fight['b_att_body'] = '0'
+        fight['b_lan_body'] = '0'
+
+    print(fight['b_att_body'])
     break
