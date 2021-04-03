@@ -36,60 +36,11 @@ for idx, fight in fights.iterrows():
     rounds = fight['fight_format'].split()[0]
     fight['maximum_scheduled_time'] = int(rounds) * 5 * 60
 
-    #Processing "of" stats
-    # if fight['r_sig_str'] != '---' and  fight['r_sig_str'] != '--':
-    #     r_sig_str = fight['r_sig_str'].split()
-    #     fight['r_att_sig_str'] = r_sig_str[0]
-    #     fight['r_lan_sig_str'] = r_sig_str[2]
-    # else:
-    #     fight['r_att_sig_str'] = '0'
-    #     fight['r_lan_sig_str'] = '0'
-    
-    # if fight['b_sig_str'] != '---' and  fight['b_sig_str'] != '--':
-    #     b_sig_str = fight['b_sig_str'].split()
-    #     fight['b_att_sig_str'] = b_sig_str[0]
-    #     fight['b_lan_sig_str'] = r_sig_str[2]
-    # else:
-    #     fight['b_att_sig_str'] = '0'
-    #     fight['b_lan_sig_str'] = '0'
-
-    # fight.drop('r_sig_str')
-    # fight.drop('b_sig_str')
+    of_cleaner('td')
     of_cleaner('sig_str')
-
-    #total strikes
-    if fight['r_total_str'] != '---' and  fight['r_total_str'] != '--':
-        r_total_str = fight['r_total_str'].split()
-        fight['r_att_total_str'] = r_total_str[0]
-        fight['r_lan_total_str'] = r_total_str[2]
-    else:
-        fight['r_att_total_str'] = '0'
-        fight['r_lan_total_str'] = '0'
-    
-    if fight['b_total_str'] != '---' and  fight['b_total_str'] != '--':
-        b_total_str = fight['b_total_str'].split()
-        fight['b_att_total_str'] = b_total_str[0]
-        fight['b_lan_total_str'] = b_total_str[2]
-    else:
-        fight['b_att_total_str'] = '0'
-        fight['b_lan_total_str'] = '0'
-
-    #takedowns
-    if fight['r_td'] != '---' and  fight['r_td'] != '--':
-        r_total_str = fight['r_td'].split()
-        fight['r_att_td'] = r_total_str[0]
-        fight['r_lan_td'] = r_total_str[2]
-    else:
-        fight['r_att_td'] = '0'
-        fight['r_lan_td'] = '0'
-    
-    if fight['b_td'] != '---' and  fight['b_td'] != '--':
-        b_sig_str = fight['b_td'].split()
-        fight['b_att_td'] = b_sig_str[0]
-        fight['b_lan_td'] = b_sig_str[2]
-    else:
-        fight['b_att_td'] = '0'
-        fight['b_lan_td'] = '0'
+    of_cleaner('total_str')
+    of_cleaner('head')
+    of_cleaner('body')
 
     #control
     r_ctrl_split = fight['r_ctrl'].split(':')
@@ -102,39 +53,5 @@ for idx, fight in fights.iterrows():
     b_ctrl += int(b_ctrl_split[1])
     fight['b_ctrl'] = str(b_ctrl)
 
-    #head
-    if fight['r_head'] != '---' and  fight['r_head'] != '--':
-        r_total_str = fight['r_head'].split()
-        fight['r_att_head'] = r_total_str[0]
-        fight['r_lan_head'] = r_total_str[2]
-    else:
-        fight['r_att_head'] = '0'
-        fight['r_lan_head'] = '0'
-    
-    if fight['b_head'] != '---' and  fight['b_head'] != '--':
-        b_sig_str = fight['b_td'].split()
-        fight['b_att_head'] = b_sig_str[0]
-        fight['b_lan_head'] = b_sig_str[2]
-    else:
-        fight['b_att_head'] = '0'
-        fight['b_lan_head'] = '0'
-
-    #body
-    if fight['r_body'] != '---' and  fight['r_body'] != '--':
-        r_total_str = fight['r_body'].split()
-        fight['r_att_body'] = r_total_str[0]
-        fight['r_lan_body'] = r_total_str[2]
-    else:
-        fight['r_att_body'] = '0'
-        fight['r_lan_body'] = '0'
-    
-    if fight['b_body'] != '---' and  fight['b_body'] != '--':
-        b_sig_str = fight['b_body'].split()
-        fight['b_att_body'] = b_sig_str[0]
-        fight['b_lan_body'] = b_sig_str[2]
-    else:
-        fight['b_att_body'] = '0'
-        fight['b_lan_body'] = '0'
-
-    print(fight['r_att_sig_str'])
+    print(fight)
     break
