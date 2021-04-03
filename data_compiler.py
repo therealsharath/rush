@@ -16,9 +16,9 @@ def compile_fights(fighter):
                 fighter_fight_list.append(fight)    
     
     fighter_fight_list = pd.DataFrame(fighter_fight_list)
-    fighter_fight_list.sort_values(by = 'fight_date')
+    fighter_fight_list = fighter_fight_list.sort_values(by = 'fight_date', ascending=False)
 
-    del fight['Unnamed: 0']
+    del fighter_fight_list['Unnamed: 0']
     return fighter_fight_list
 
 def prepareData(fighter):
@@ -27,7 +27,7 @@ def prepareData(fighter):
 
     fighter_fights = compile_fights(fighter)
 
-    print(fighter_fights['fight_date'])
+    print(fighter_fights)
     return fighter_data
 
-prepareData('Khabib Nurmagomedov')
+prepareData('Conor McGregor')
