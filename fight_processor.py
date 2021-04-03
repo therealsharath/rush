@@ -41,7 +41,11 @@ for idx, fight in fights.iterrows():
     of_cleaner('total_str')
     of_cleaner('head')
     of_cleaner('body')
-
+    of_cleaner('leg')
+    of_cleaner('distance')
+    of_cleaner('clinch')
+    of_cleaner('ground')
+    
     #control
     r_ctrl_split = fight['r_ctrl'].split(':')
     r_ctrl = int(r_ctrl_split[0]) * 60
