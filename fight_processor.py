@@ -2,6 +2,19 @@ import pandas as pd
 
 fights = pd.read_csv('./data/raw_data/combined_fights.csv')
 cleaned_fights = []
+corners = ['r_', 'b_']
+
+def of_cleaner(title):
+    for corner in corners:
+        if fight[corner + title] != '---' and  fight[corner + title] != '--':
+            title_split = fight[corner + title].split()
+            fight[corner + 'att_' + title] = title_split[0]
+            fight[corner + 'lan_' + title] = title_split[2]
+        else:
+            fight[corner + 'att_'+title] = '0'
+            fight[corner + 'lan_'+title] = '0'
+
+        fight.drop(corner+title)
 
 for idx, fight in fights.iterrows():
     #Winning corner
@@ -24,24 +37,25 @@ for idx, fight in fights.iterrows():
     fight['maximum_scheduled_time'] = int(rounds) * 5 * 60
 
     #Processing "of" stats
-    if fight['r_sig_str'] != '---' and  fight['r_sig_str'] != '--':
-        r_sig_str = fight['r_sig_str'].split()
-        fight['r_att_sig_str'] = r_sig_str[0]
-        fight['r_lan_sig_str'] = r_sig_str[2]
-    else:
-        fight['r_att_sig_str'] = '0'
-        fight['r_lan_sig_str'] = '0'
+    # if fight['r_sig_str'] != '---' and  fight['r_sig_str'] != '--':
+    #     r_sig_str = fight['r_sig_str'].split()
+    #     fight['r_att_sig_str'] = r_sig_str[0]
+    #     fight['r_lan_sig_str'] = r_sig_str[2]
+    # else:
+    #     fight['r_att_sig_str'] = '0'
+    #     fight['r_lan_sig_str'] = '0'
     
-    if fight['b_sig_str'] != '---' and  fight['b_sig_str'] != '--':
-        b_sig_str = fight['b_sig_str'].split()
-        fight['b_att_sig_str'] = b_sig_str[0]
-        fight['b_lan_sig_str'] = r_sig_str[2]
-    else:
-        fight['b_att_sig_str'] = '0'
-        fight['b_lan_sig_str'] = '0'
+    # if fight['b_sig_str'] != '---' and  fight['b_sig_str'] != '--':
+    #     b_sig_str = fight['b_sig_str'].split()
+    #     fight['b_att_sig_str'] = b_sig_str[0]
+    #     fight['b_lan_sig_str'] = r_sig_str[2]
+    # else:
+    #     fight['b_att_sig_str'] = '0'
+    #     fight['b_lan_sig_str'] = '0'
 
-    fight.drop('r_sig_str')
-    fight.drop('b_sig_str')
+    # fight.drop('r_sig_str')
+    # fight.drop('b_sig_str')
+    of_cleaner('sig_str')
 
     #total strikes
     if fight['r_total_str'] != '---' and  fight['r_total_str'] != '--':
@@ -53,9 +67,9 @@ for idx, fight in fights.iterrows():
         fight['r_lan_total_str'] = '0'
     
     if fight['b_total_str'] != '---' and  fight['b_total_str'] != '--':
-        b_sig_str = fight['b_total_str'].split()
-        fight['b_att_total_str'] = b_sig_str[0]
-        fight['b_lan_total_str'] = r_sig_str[2]
+        b_total_str = fight['b_total_str'].split()
+        fight['b_att_total_str'] = b_total_str[0]
+        fight['b_lan_total_str'] = b_total_str[2]
     else:
         fight['b_att_total_str'] = '0'
         fight['b_lan_total_str'] = '0'
@@ -72,7 +86,7 @@ for idx, fight in fights.iterrows():
     if fight['b_td'] != '---' and  fight['b_td'] != '--':
         b_sig_str = fight['b_td'].split()
         fight['b_att_td'] = b_sig_str[0]
-        fight['b_lan_td'] = r_sig_str[2]
+        fight['b_lan_td'] = b_sig_str[2]
     else:
         fight['b_att_td'] = '0'
         fight['b_lan_td'] = '0'
@@ -100,7 +114,7 @@ for idx, fight in fights.iterrows():
     if fight['b_head'] != '---' and  fight['b_head'] != '--':
         b_sig_str = fight['b_td'].split()
         fight['b_att_head'] = b_sig_str[0]
-        fight['b_lan_head'] = r_sig_str[2]
+        fight['b_lan_head'] = b_sig_str[2]
     else:
         fight['b_att_head'] = '0'
         fight['b_lan_head'] = '0'
@@ -117,10 +131,10 @@ for idx, fight in fights.iterrows():
     if fight['b_body'] != '---' and  fight['b_body'] != '--':
         b_sig_str = fight['b_body'].split()
         fight['b_att_body'] = b_sig_str[0]
-        fight['b_lan_body'] = r_sig_str[2]
+        fight['b_lan_body'] = b_sig_str[2]
     else:
         fight['b_att_body'] = '0'
         fight['b_lan_body'] = '0'
 
-    print(fight['b_att_body'])
+    print(fight['r_att_sig_str'])
     break
