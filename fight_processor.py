@@ -16,7 +16,19 @@ def of_cleaner(fight, title):
 
         del fight[corner + title]
     return fight
-    
+
+def pct_cleaner(fight, title):
+    for corner in corners:
+        if fight[corner + title] != '---' and  fight[corner + title] != '--':
+            title_val = int(fight[corner + title][:-1])
+            title_val /= 100
+            fight[corner + title] = str(title_val)
+        else:
+            fight[corner + 'att_'+title] = '0'
+            fight[corner + 'lan_'+title] = '0'
+
+    return fight
+
 for idx, fight in fights.iterrows():
     #Winning corner
     if fight['winner'] == fight['fighter_r']:
@@ -47,6 +59,9 @@ for idx, fight in fights.iterrows():
     fight = of_cleaner(fight, 'clinch')
     fight = of_cleaner(fight, 'ground')
 
+    fight = pct_cleaner(fight, 'sig_str_pct')
+    fight = pct_cleaner(fight, 'td_pct')
+
     #control
     r_ctrl_split = fight['r_ctrl'].split(':')
     r_ctrl = int(r_ctrl_split[0]) * 60
@@ -60,7 +75,5 @@ for idx, fight in fights.iterrows():
     
     del fight['Unnamed: 0']
     cleaned_fights.append(fight)
-    if len(cleaned_fights) == 10:
-        break
 
 pd.DataFrame(cleaned_fights).to_csv("./data/processed_data/cleaned_fight_details.csv")
