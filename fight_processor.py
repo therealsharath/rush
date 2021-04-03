@@ -4,7 +4,7 @@ fights = pd.read_csv('./data/raw_data/combined_fights.csv')
 cleaned_fights = []
 corners = ['r_', 'b_']
 
-def of_cleaner(title):
+def of_cleaner(fight, title):
     for corner in corners:
         if fight[corner + title] != '---' and  fight[corner + title] != '--':
             title_split = fight[corner + title].split()
@@ -14,8 +14,9 @@ def of_cleaner(title):
             fight[corner + 'att_'+title] = '0'
             fight[corner + 'lan_'+title] = '0'
 
-        fight.drop(corner+title)
-
+        del fight[corner + title]
+    return fight
+    
 for idx, fight in fights.iterrows():
     #Winning corner
     if fight['winner'] == fight['fighter_r']:
@@ -36,16 +37,16 @@ for idx, fight in fights.iterrows():
     rounds = fight['fight_format'].split()[0]
     fight['maximum_scheduled_time'] = int(rounds) * 5 * 60
 
-    of_cleaner('td')
-    of_cleaner('sig_str')
-    of_cleaner('total_str')
-    of_cleaner('head')
-    of_cleaner('body')
-    of_cleaner('leg')
-    of_cleaner('distance')
-    of_cleaner('clinch')
-    of_cleaner('ground')
-    
+    fight = of_cleaner(fight, 'td')
+    fight = of_cleaner(fight, 'sig_str')
+    fight = of_cleaner(fight, 'total_str')
+    fight = of_cleaner(fight, 'head')
+    fight = of_cleaner(fight, 'body')
+    fight = of_cleaner(fight, 'leg')
+    fight = of_cleaner(fight, 'distance')
+    fight = of_cleaner(fight, 'clinch')
+    fight = of_cleaner(fight, 'ground')
+
     #control
     r_ctrl_split = fight['r_ctrl'].split(':')
     r_ctrl = int(r_ctrl_split[0]) * 60
@@ -56,6 +57,10 @@ for idx, fight in fights.iterrows():
     b_ctrl = int(b_ctrl_split[0]) * 60
     b_ctrl += int(b_ctrl_split[1])
     fight['b_ctrl'] = str(b_ctrl)
+    
+    del fight['Unnamed: 0']
+    cleaned_fights.append(fight)
+    if len(cleaned_fights) == 10:
+        break
 
-    print(fight)
-    break
+pd.DataFrame(cleaned_fights).to_csv("./data/processed_data/cleaned_fight_details.csv")
