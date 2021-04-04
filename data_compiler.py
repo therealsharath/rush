@@ -24,10 +24,14 @@ def compile_fights(fighter):
 def prepareData(fighter):
     fighter_data = fighters.loc[fighters['fighter_name'] == fighter].values.tolist()
     fighter_data = fighter_data[0]
-
     fighter_fights = compile_fights(fighter)
+    return fighter_fights
 
+
+fight_final_data = []
+#Main processor
+for fighter in fighters.iterrows():
+    fighter = fighter[1]
+    fighter_fights = prepareData(fighter['fighter_name'])
     print(fighter_fights)
-    return fighter_data
-
-prepareData('Conor McGregor')
+    break
