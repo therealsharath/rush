@@ -33,5 +33,5 @@ fight_final_data = []
 for fighter in fighters.iterrows():
     fighter = fighter[1]
     fighter_fights = prepareData(fighter['fighter_name'])
-    print(fighter_fights)
+    print(fighter_fights['r_att_sig_str'].mean())
     break
