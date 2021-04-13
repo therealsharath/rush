@@ -29,6 +29,10 @@ def prepareData(fighter):
     return fighter_fights
 
 def curr_stats(fighter, fights):
+    avg_stats = []
+    for idx, fight in fights.iterrows():
+        if fight['fighter_r'] == fighter:
+
     return []
 
 fight_final_data = []
@@ -59,8 +63,6 @@ for fighter in fighters.iterrows():
                 draw_stk = 0   
         fighter_fights = fighter_fights.drop(idx)
         stats_for_fight = curr_stats(fighter, fighter_fights)
-        
-    print(win_stk, lose_stk, draw_stk) 
     break
 
-# "_85aaee9fc23ca61102952862a10b544c-scss" 
+# "_85aaee9fc23ca61102952862a10b544c-scss" sptfy
