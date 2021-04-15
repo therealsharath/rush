@@ -24,4 +24,4 @@ for idx, fight in fights.iterrows():
         continue
 
 compiled_data = pd.DataFrame(compiled_data, columns=new_indices)
-compiled_data.to_csv('./data/processed_data/pr_model_data.csv')
+compiled_data.to_csv('./data/model_data/pr_model_data.csv')
