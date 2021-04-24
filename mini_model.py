@@ -41,7 +41,7 @@ stance_b_embedding = feature_column.embedding_column(stance_b, dimension=8)
 feature_columns.append(stance_b_embedding)
 
 feature_layer = tf.keras.layers.DenseFeatures(feature_columns)
-batch_size = 32
+batch_size = 200
 train_ds = df_to_dataset(train, batch_size=batch_size)
 val_ds = df_to_dataset(val, shuffle=False, batch_size=batch_size)
 test_ds = df_to_dataset(test, shuffle=False, batch_size=batch_size)
