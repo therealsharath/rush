@@ -2,7 +2,6 @@ import pandas as pd
 
 fighters = pd.read_csv('./data/processed_data/cleaned_fighter_details.csv')
 fights = pd.read_csv('./data/processed_data/cleaned_fight_details.csv')
-# fighters = fighters.loc[:,~fighters.columns.duplicated()]
 fighters = fighters.T.drop_duplicates().T
 corners = ['r', 'b']
 compiled_data = []
